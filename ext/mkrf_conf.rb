@@ -8,9 +8,6 @@ begin
   if RUBY_PLATFORM == 'java'
     puts "Installing jruby-win32ole because Ruby #{RUBY_PLATFORM}"
     installer.install "jruby-win32ole"
-  else
-    puts "Installing win32screenshot because Ruby #{RUBY_PLATFORM}"
-    installer.install "win32screenshot"
   end
 
 rescue => e
