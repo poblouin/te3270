@@ -1,5 +1,7 @@
 # TE3270
 
+NOTE: Removing the Windows platform check from the gemspec since it started to fail for an unknown reason. Will investigate later.
+
 This gem can be used to drive a 3270 terminal emulator. You have to have a supported emulator installed on the
 machines on which you use the gem. Currently the supported emulators are
 [EXTRA! X-treme](http://www.attachmate.com/Products/Terminal+Emulation/Extra/xtreme/extra-x-treme.htm) by

@@ -22,7 +22,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'page_navigation', '>= 0.9'
   spec.add_dependency 'watir', '~> 6.0'
-  spec.add_dependency 'win32screenshot' if Gem.win_platform?
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
